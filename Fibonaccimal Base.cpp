@@ -14,9 +14,10 @@ void fb(){
 int main()  {
     int t;
     cin >> t;
+
     fb();
-  
-    while(t--){
+    while (t--)
+    {
         vector<int> ans;
         int flag=0;
         int n;

@@ -1,0 +1,1 @@
+{"name":"Local: cola","url":"d:\\Github\\Ping\\cpp\\StupidCPE\\cola.cpp","tests":[{"id":1724796251140,"input":"8","output":"12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Ping\\cpp\\StupidCPE\\cola.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: decode the mad man","url":"d:\\Github\\Ping\\cpp\\StupidCPE\\decode the mad man.cpp","tests":[{"id":1726071603011,"input":"k[r dyt I[o","output":"how are you"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Ping\\cpp\\StupidCPE\\decode the mad man.cpp","group":"local","local":true}

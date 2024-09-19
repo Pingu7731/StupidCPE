@@ -21,7 +21,7 @@ int main()
             }
             if (v[i] != 0 && v[i - 1] >= v[i])
             {
-                flag = true;
+                flag = false;
             }
         }
         set<int> check;
@@ -37,6 +37,10 @@ int main()
                     break;
                 }
                 check.insert(temp);
+            }
+            if (!flag)
+            {
+                break;
             }
         }
         cout << "Case #" << cases;

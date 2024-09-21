@@ -1,26 +1,37 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 
 using namespace std;
 
+bool compare(pair<int,int>a,pair<int,int>b){
+    if(a.second != b.second){
+        return a.second < b.second;
+    }
+    else{
+        return a.first > b.first;
+    }
+}
+
 int main (){
-    string s;
     bool flag = false;
-    while(getline (cin,s)){
-        int v[128] = {0};
+    string s;
+    while(getline(cin ,s)){
         if(flag){
             cout << endl;
         }
         flag = true;
+        vector<pair<int, int>>v;
+        map<int, int> m;
         for (int i = 0; i < s.size();i++){
-            v[s[i]]++;
+            m[s[i]]++;
         }
-        for (int i = 1;i<s.size();i++){
-            for (int j = 127; j >= 32;j--){
-                if(v[j]==i){
-                    cout << j << " " << i << endl;
-                }
-            }
+        for(auto i:m){
+            v.push_back(i);
+        }
+        sort(v.begin(), v.end(), compare);
+
+        for(auto i :v){
+            cout << i.first << " " << i.second << endl;
         }
     }
-    return 0;   
+    return 0;
 }

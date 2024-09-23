@@ -1,30 +1,3 @@
-// #include <bits/stdc++.h>
-
-// using namespace std;
-
-// int main (){
-//     string ans;
-//     string character = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+{}|QWERTYUIOPASDFGHJKLZXCVBNM";
-//     while (getline(cin,ans))
-//     {
-        
-//         for (auto &i:ans){
-
-//             if(i ==' '){
-//                 cout << ' ';
-//             }
-//             for(auto c:character){
-//                 cout << c<<endl;
-//                 // if(c==i){
-
-//                 // }
-//             }
-            
-//         }
-//         cout << endl;
-//     }
-//     return 0;
-// }
 #include <bits/stdc++.h>
 #include <chrono>
 #include <thread>
@@ -51,7 +24,7 @@ int main() {
                     char randomChar = character[rand() % character.size()];
                     cout << revealed + randomChar << "\r"; 
                     fflush(stdout);  
-                    // this_thread::sleep_for(chrono::milliseconds(50));  
+                    this_thread::sleep_for(chrono::milliseconds(50));  
                 }
                 revealed += actualChar;  
                 cout << revealed << endl; 

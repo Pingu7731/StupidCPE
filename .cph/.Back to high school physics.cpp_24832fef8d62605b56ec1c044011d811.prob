@@ -1,0 +1,1 @@
+{"name":"Local: Back to high school physics","url":"/media/alton/DATA/GitHub/Ping/StupidCPE/Back to high school physics.cpp","tests":[{"id":1727345536267,"input":"0 0\n5 12","output":"0\n120"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/alton/DATA/GitHub/Ping/StupidCPE/Back to high school physics.cpp","group":"local","local":true}

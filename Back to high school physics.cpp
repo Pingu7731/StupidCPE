@@ -7,4 +7,5 @@ int main()
     {
         cout << a * b * 2 << endl;
     }
+    return 0;
 }

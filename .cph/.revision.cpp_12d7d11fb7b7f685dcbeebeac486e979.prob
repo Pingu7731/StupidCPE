@@ -1,0 +1,1 @@
+{"name":"Local: revision","url":"d:\\Github\\Ping\\cpp\\StupidCPE\\revision.cpp","tests":[{"id":1727791842686,"input":"AAABBC\n122333","output":"67 1\n66 2\n65 3\n\n49 1\n50 2\n51 3"},{"id":1727798986022,"input":"AAABBC","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Ping\\cpp\\StupidCPE\\revision.cpp","group":"local","local":true}

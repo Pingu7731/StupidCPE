@@ -1,0 +1,1 @@
+{"name":"Local: decoding","url":"d:\\Github\\Ping\\cpp\\StupidCPE\\decoding.cpp","tests":[{"id":1728057262540,"input":"3\nA2B4D1A2\nA12\nA1B1C1D1","output":"Case 1: AABBBBDAA\nCase 2: AAAAAAAAAAAA\nCase 3: ABCD"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Ping\\cpp\\StupidCPE\\decoding.cpp","group":"local","local":true}
